@@ -3,8 +3,8 @@ on:
   schedule:
     # run every 4 hours
     # - cron: '20 */4 * * *'
-    # run every 23 hours
-    - cron: '20 */23 * * *'
+    # run every 2nd day-of-month
+    - cron: '20 1 */2 * *'
 name: Excavator
 jobs:
   excavate:
